@@ -19,7 +19,6 @@ set -gx PATH $HOME/.config/rbenv/shims:$PATH
 set -gx GEM_HOME $HOME/.config/gems
 set -gx PATH $HOME/.config/gems/bin:$PATH
 
-
 # theme
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
