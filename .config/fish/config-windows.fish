@@ -1,0 +1,1 @@
+alias update "choco update all -y"
