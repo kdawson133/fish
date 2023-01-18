@@ -16,4 +16,5 @@
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
+alias find='fd'
 alias fd='fd -IHiaL'
