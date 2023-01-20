@@ -17,7 +17,7 @@ if status is-interactive
 end
 
 # EXPORTS
-set fish_greeting ""
+set fish_greeting "$HOSTNAME"
 set fish_cursor_default block
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
