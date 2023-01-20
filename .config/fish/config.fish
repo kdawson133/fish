@@ -18,6 +18,7 @@ end
 
 # EXPORTS
 set fish_greeting ""
+set fish_cursor_default underscore
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
 set -gx EDITOR nvim
