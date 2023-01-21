@@ -17,8 +17,7 @@ if status is-interactive
 end
 
 # EXPORTS
-set fish_greeting "$HOSTNAME"
-set fish_cursor_default block
+set fish_greeting ""
 set -gx TERM xterm-256color
 set -gx COLORTERM truecolor
 set -gx EDITOR nvim
