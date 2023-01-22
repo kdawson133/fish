@@ -24,6 +24,11 @@ set -gx EDITOR nvim
 set -gx LC_ALL en_AU.UTF-8
 set -gx LANGUAGE en_AU:en
 set -gx LANG en_AU.UTF-8
+set -gx XDG_DATA_HOME $HOME/.local/share
+set -gx XDG_CONFIG_HOME $HOME/.config
+set -gx XDG_STATE_HOME $HOME/.local/state
+set -gx XDG_CACHE_HOME $HOME/.cache
+set -gx XDG_RUNTIME_DIR $HOME/.local/run
 set -gx PYTHONSTARTUP /etc/python3/pythonrc
 set -gx CARGO_HOME $XDG_DATA_HOME/cargo
 set -gx RUSTUP_HOME $XDG_DATA_HOME/rustup
